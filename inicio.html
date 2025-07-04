@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Início - BBB 25</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff33cc, #9933ff);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, #ffffff, #ddddff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      background: white;
+      color: #9933ff;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    a:hover {
+      background: #eeeeee;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao BBB 25!</h1>
+  <p>
+    O Big Brother Brasil 25 é a edição mais emocionante até agora! <br>
+    Com participantes intensos, dinâmicas surpreendentes e uma torcida apaixonada, a casa está em constante ebulição.
+    <br><br>
+    Dakota, Joselma e Sam protagonizam o paredão mais comentado da temporada.
+    <br><br>
+    Participe da votação, torça pelo seu favorito e acompanhe cada momento decisivo dessa jornada inesquecível!
+  </p>
+
+  <a href="votacao.html">↩ Voltar para a votação</a>
+
+  <!-- 🎵 Música de fundo -->
+  <audio autoplay loop>
+    <source src="Bbb Abertura.mp3" type="audio/mpeg">
+    Seu navegador não suporta o áudio HTML.
+  </audio>
+</body>
+</html>
